@@ -1,0 +1,48 @@
+Mean Features (Average measurements of the tumor)
+mean radius → Average distance from tumor center to boundary points (overall tumor size).
+mean texture → Average variation in gray-scale intensity (surface appearance/roughness in image).
+mean perimeter → Average boundary length around the tumor.
+mean area → Average total area occupied by the tumor.
+mean smoothness → How smooth or irregular the tumor boundary is.
+mean compactness → How compact/dense the tumor shape is.
+mean concavity → Degree of inward curves or indentations in the tumor boundary.
+mean concave points → Number of inward-curving points in the tumor boundary.
+mean symmetry → How symmetrical the tumor shape is.
+mean fractal dimension → Complexity/roughness level of the tumor boundary pattern.
+Error Features (Variation or inconsistency in measurements)
+radius error → Variation/error in tumor radius measurements.
+texture error → Variation/error in texture measurements.
+perimeter error → Variation/error in perimeter measurements.
+area error → Variation/error in area measurements.
+smoothness error → Variation/error in smoothness measurements.
+compactness error → Variation/error in compactness measurements.
+concavity error → Variation/error in concavity measurements.
+concave points error → Variation/error in concave point measurements.
+symmetry error → Variation/error in symmetry measurements.
+fractal dimension error → Variation/error in fractal dimension measurements.
+Worst Features (Most extreme/worst-case measurements)
+worst radius → Largest observed tumor radius.
+worst texture → Most irregular texture observed in the tumor.
+worst perimeter → Largest observed tumor perimeter.
+worst area → Largest observed tumor area.
+worst smoothness → Highest irregularity in tumor smoothness.
+worst compactness → Highest compactness/density observed.
+worst concavity → Highest inward-curving severity in tumor boundary.
+worst concave points → Maximum number of inward-curving points observed.
+worst symmetry → Most asymmetrical tumor shape observed.
+worst fractal dimension → Highest complexity/roughness in tumor boundary.
+Most Important Intuition
+
+These features are basically trying to mathematically describe:
+
+tumor size
+tumor shape
+tumor boundary irregularity
+tumor complexity
+
+Because:
+
+benign tumors are usually smoother and regular
+malignant tumors are often larger, irregular, asymmetric, and complex
+
+So the dataset converts medical images into numerical measurements that ML models can learn from.
